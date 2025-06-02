@@ -27,19 +27,24 @@ La app está pensada como la interfaz de usuario para un sistema IoT:
 
 ## 🖼️ Capturas de pantalla
 
-### Pantalla de Login
-![Login](login.png)
+### Pantalla de inicio de sesión
+![Pantalla de inicio de sesión](login.png)
 
-### Panel de control
-![Panel de control](panel.png)
+### Panel principal
+![Panel principal](panel.png.png)
 
-### Luz apagada y encendida
-![Apagada](apagada.png)
-![Encendida](encendida.png)
+### Luz apagada en app
+![Luz apagada](apagada.png.png)
 
-### Vista de la base de datos en Firebase
-![Firebase](firebase-apagada.png)
-![Firebase](firebase-encendida.png)
+### Luz encendida en app
+![Luz encendida](encendida.png.png)
+
+### Estado en Firebase - Apagada
+![Firebase apagada](firebase-apagada.png.png)
+
+### Estado en Firebase - Encendida
+![Firebase encendida](firebase-encendida.png.png)
+
 
 ## 📦 Instalación y ejecución
 
