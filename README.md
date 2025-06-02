@@ -28,7 +28,7 @@ La app está pensada como la interfaz de usuario para un sistema IoT:
 ## 🖼️ Capturas de pantalla
 
 ### Pantalla de inicio de sesión
-![Pantalla de inicio de sesión](inicio%20de%20sesión.png.png)
+![Pantalla de inicio de sesión](login.png.png)
 
 ### Panel principal
 ![Panel principal](panel.png.png)
