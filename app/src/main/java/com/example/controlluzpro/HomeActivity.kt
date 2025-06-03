@@ -38,7 +38,7 @@ class HomeActivity : ComponentActivity() {
 @Composable
 fun HomeScreen(dbRef: DatabaseReference) {
     val user = FirebaseAuth.getInstance().currentUser
-    val context = LocalContext.current // <-- Posición correcta
+    val context = LocalContext.current
 
     var luzEstado by remember { mutableStateOf("apagada") }
     var lastChangedBy by remember { mutableStateOf("") }

@@ -52,7 +52,7 @@ fun LoginScreen(onLoginSuccess: () -> Unit, auth: FirebaseAuth) {
     var isLogin by remember { mutableStateOf(true) }
     var errorMessage by remember { mutableStateOf("") }
     var loading by remember { mutableStateOf(false) }
-    var passwordVisible by remember { mutableStateOf(false) } // Nuevo estado para visibilidad
+    var passwordVisible by remember { mutableStateOf(false) }
 
     Box(
         Modifier
@@ -99,7 +99,6 @@ fun LoginScreen(onLoginSuccess: () -> Unit, auth: FirebaseAuth) {
                     loading = true
                     errorMessage = ""
                     if (isLogin) {
-                        // Login
                         auth.signInWithEmailAndPassword(email, password)
                             .addOnCompleteListener { task ->
                                 loading = false
